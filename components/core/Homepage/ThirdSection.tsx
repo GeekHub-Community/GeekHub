@@ -4,9 +4,9 @@ import Image from 'next/image'
 
 export const ThirdSection = () => {
     return (
-        <div className='text-black bg-white flex p-5  justify-evenly pt-[50px]'>
+        <div className='text-black bg-white flex p-5  justify-evenly'>
              <div >
-                <Image alt='girlimage2' width={500} height={200} src='/home/girl2.svg'/>
+                <Image alt='girlimage2' width={500} height={200} src='/home/girl.svg'/>
             </div>
             <div className='w-1/2  flex justify-center items-center'>
 
