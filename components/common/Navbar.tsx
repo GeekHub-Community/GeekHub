@@ -1,12 +1,11 @@
 import { Navlinks } from '@/data/Navbar'
 import Image from 'next/image'
 import Link from 'next/link'
-import React from 'react'
 
 export const Navbar = () => {
   return (
 
-    <div className='flex justify-between border w-full max-w-[1600px] bg-white text-black p-2'>
+    <div className='flex justify-between border w-full max-w-[1600px] fixed top-0 backdrop-blur-sm text-black p-2'>
         <div className='flex  ml-5'>
             <Link href='/' className='flex gap-2'>
                 <Image alt='Logo' width={40} height={40} src='/logo.jpg' className='rounded-full'/>

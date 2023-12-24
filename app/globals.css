@@ -25,3 +25,8 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.background{
+  background-image: url('/home/background.svg');
+  background-repeat: no-repeat;
+}
