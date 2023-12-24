@@ -4,7 +4,7 @@ Welcome to the [GeekHub](https://geekhub-community.vercel.app/) repository!
 
 ## About the Project
 
-Geekhub, the official educational community club of [University Institute of Engineering & Technology, Rohatk](https://uietmdu.in/),
+Geekhub, the official educational community club of [University Institute of Engineering & Technology, Rohatk](https://uietmdu.in/), at [Maharishi Dayanand University](https://mdu.ac.in/)
 The primary goal of Geekhub is to foster collaboration and the growth of individuals within the college community. This repository serves as an open invitation for anyone to contribute and be a part of our collective journey.
 
 ### Project Purpose
@@ -52,4 +52,5 @@ Make sure you have the following installed on your machine:
 - [Node.js](https://nodejs.org/)
 - [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/) or[pnpm](https://pnpm.io/)
 
-
+## Feel free to ask for any help by leaving a comment in the repository. One of the collaborators will assist you as soon as possible.
+## Join us on this exciting journey of collaboration, learning, and growth with Geekhub!
