@@ -5,7 +5,7 @@ import Link from 'next/link'
 export const Navbar = () => {
   return (
 
-    <div className='flex justify-between  w-full lg:max-w-[1600px] border border-black fixed top-0 backdrop-blur-sm text-black p-2'>
+    <div className='flex justify-between  w-full lg:max-w-[1600px] shadow fixed top-0 backdrop-blur-sm text-black p-2'>
         <div className='flex  ml-5'>
             <Link href='/' className='flex gap-2'>
                 <Image alt='Logo' width={40} height={40} src='/logo.jpg' className='rounded-full'/>
