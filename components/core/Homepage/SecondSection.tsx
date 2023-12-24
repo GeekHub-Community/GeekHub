@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export const SecondSection = () => {
     return (
-        <div className='text-black bg-white flex p-5'>
+        <div className='text-black bg-white flex p-5 justify-evenly'>
             <div className='w-1/2  flex justify-center items-center'>
 
                 <div className=' p-8'>

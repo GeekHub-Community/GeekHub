@@ -1,5 +1,8 @@
+import { FifthSection } from '@/components/core/Homepage/FifthSection'
+import { ForthSection } from '@/components/core/Homepage/ForthSection'
 import { HomeSection } from '@/components/core/Homepage/HomeSection'
 import { SecondSection } from '@/components/core/Homepage/SecondSection'
+import { ThirdSection } from '@/components/core/Homepage/ThirdSection'
 
 export default function Home() {
   return (
@@ -7,6 +10,9 @@ export default function Home() {
       <div className='border max-w-[1600px]'>
         <HomeSection />
         <SecondSection/>
+        <ThirdSection/>
+        <ForthSection/>
+        <FifthSection/>
       </div>
     </main>
   )
