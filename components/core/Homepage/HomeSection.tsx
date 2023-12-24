@@ -6,7 +6,7 @@ export const HomeSection = () => {
     return (
         <div className='min-h-screen w-full bg-white text-black'>
 
-            <div className=' flex flex-col lg:flex-row pt-[60px]'>
+            <div className=' flex flex-col lg:flex-row pt-[80px]'>
 
                 <div className='flex   w-full justify-center  md:justify-end items-center p-5  md:p-[60px]'>
 
