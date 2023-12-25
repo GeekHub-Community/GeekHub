@@ -18,6 +18,7 @@
           white: '#FFFAF0',
           black: '#1B1B1B',
           blue: '#190B83',
+          AthensGray:'#F4F5F7'
           // Add as many custom colors as you need
         },
       },
