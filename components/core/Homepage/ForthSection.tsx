@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export const ForthSection = () => {
     return (
-        <div className='text-black bg-white flex  flex-col lg:flex-row p-5  justify-evenly pt-[100px]'>
+        <div className='text-black bg-AthensGray flex  flex-col lg:flex-row p-5  justify-evenly pt-[100px]'>
             
             <div className='lg:w-1/2  flex justify-center items-center'>
 
