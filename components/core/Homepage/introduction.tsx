@@ -1,11 +1,11 @@
 "use client"
 import React from 'react';
 import { IntroCards } from '@/components/common/IntroCards';
-const Numbers = React.lazy(() => import('./Numbers'));
 import { IntroCardsData } from '@/data/homeCard'
 import { useEffect } from 'react';
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Numbers from './Numbers';
 
 const Introduction = () => {
 
