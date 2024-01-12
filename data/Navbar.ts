@@ -4,7 +4,7 @@ export const Navlinks = [
         href:'/',
     },
     {
-        title:'Contact',
+        title:'Members',
         href:'/',
     },
     {
