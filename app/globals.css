@@ -30,3 +30,11 @@ body {
   background-image: url('/home/background.svg');
   background-repeat: no-repeat;
 }
+
+.HeroBack{
+   background: url('/slider/back.jpg');
+   background-position: center;
+   background-attachment: fixed;
+   background-size: cover;
+   height: 90vh;
+}
