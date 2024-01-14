@@ -33,7 +33,7 @@ body {
 
 .HeroBack{
    background: url('/slider/back.jpg');
-   background-position: center;
+   background-position: contain;
    background-attachment: fixed;
    background-size: cover;
    height: 90vh;
