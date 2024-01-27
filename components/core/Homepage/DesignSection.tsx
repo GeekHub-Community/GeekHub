@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export const DesignSection = () => {
     return (
-        <div className='text-black bg-AthensGray flex  flex-col lg:flex-row p-5  justify-evenly pt-[100px]'>
+        <div className='text-black bg-AthensGray flex  flex-col lg:flex-row p-5  justify-evenly pt-[100px] bg-[url("/design.svg")]'>
             
             <div className='lg:w-1/2  flex justify-center items-center'>
 
