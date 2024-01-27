@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export const IntroCards = ({ icon, title, desc }:any) => {
   return (
-    <div className="shadow  border-black" data-aos="flip-right" data-aos-delay="300">
-          <div className="w-full h-[7px] bg-blue  "></div>
+    <div className="shadow rounded" data-aos="flip-right" data-aos-delay="300">
+          <div className="w-full h-[7px] bg-blue  rounded-t"></div>
           <div className="p-5">
             <div className=" flex justify-center p-2">
               <Image alt="icons" src={`${icon}`} width={40} height={50}/>
