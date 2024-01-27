@@ -39,14 +39,14 @@ const Introduction = () => {
                     </p>
                     <div className='w-4/5 text-center mx-auto mt-2 p-5'>
                         <p className='text-xs md:text-sm text-black/80'>
-                            {` The AEC Coding Club started its journey on 11 April 2021. Its
+                            {` The GeekHub  Club started its journey on  2016. Its
             major objective is to motivate students' interest in learning
             various technologies and to obtain information about how
             technology will be used to project work. The club's goal is to
             encourage students to solve various challenging problems using
             demanding technologies which include Python, Java, C, C++,
             etc. Our approach will help students to become Industry Ready.
-            This will boost them to get Job. The AEC Coding Club actively
+            This will boost them to get Job. The GeekHubClub actively
             organizes various activities like Online Coding Contest,
             Online Quiz Contest, etc. Other events like Expert's Talk,
             Alumni Talk, and Hands-on practical workshops for various

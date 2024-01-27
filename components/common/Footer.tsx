@@ -19,7 +19,7 @@ export const Footer = () => {
                         <p className=' w-4/5'>400 University Drive Suite 200 Coral Gables, FL 33134 USA</p>
                     </div>
                 </div>
-                <p className='  text-sm font-semibold ml-[50px]'>&#9400; 2023 Dogindar. All rights reverved</p>
+                <p className='  text-sm font-semibold ml-[50px]'>&#9400; 2023 GeekHub. All rights reverved</p>
             </div>
 
             <div className='grid grid-cols-2 align-items-center  p-5  w-2/6'>
@@ -53,7 +53,7 @@ export const Footer = () => {
             <div className='flex flex-col p-5 gap-5'>
                 <p className='font-semibold'>Newsletter</p>
                 <div className='flex flex-col gap-4'>
-                    <input type='email' placeholder='Email Your Email Address' className=' outline-none p-2 border border-blue/80 bg-transparent'/>
+                    <input type='email' placeholder='Email Your Email Address' className=' outline-none p-2 border border-blue/80 bg-transparent rounded'/>
                     <div className='flex justify-center'>
                     <button className='bg-blue p-3 text-white'>Subscribe</button>
                     </div>

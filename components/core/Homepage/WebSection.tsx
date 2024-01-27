@@ -8,7 +8,7 @@ export const WebSection = () => {
             <div className='lg:w-1/2  flex justify-center items-center'>
 
                 <div className='p-8  text-center md:text-left'>
-                    <h2 className='font-bold text-xl md:text-2xl'>Light, Fast & Powerful</h2>
+                    <h2 className='font-bold text-xl md:text-2xl'>Web Development</h2>
                     <p className='text-xs  md:text-sm md:w-4/5 ml-5 md:ml-0'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
                         mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
 

@@ -9,6 +9,7 @@ import { DesignSection } from '@/components/core/Homepage/DesignSection'
 import { CyberSecurity } from '@/components/core/Homepage/CyberSecurity'
 import { BlockChain } from '@/components/core/Homepage/BlockChain'
 import { GameSection } from '@/components/core/Homepage/GameSection'
+import TestSection from '@/components/core/Homepage/TestSection'
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
         <CyberSecurity/>
         <BlockChain/>
         <GameSection/>
+        <TestSection/>
       </div>
     </main>
   )
