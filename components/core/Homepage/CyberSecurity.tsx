@@ -2,7 +2,7 @@ import React from 'react'
 
 import Image from 'next/image'
 
-export const ThirdSection = () => {
+export const CyberSecurity = () => {
     return (
         <div className='text-black bg-white flex  flex-col lg:flex-row p-5  justify-evenly'>
              <div className='flex justify-center items-center ' >

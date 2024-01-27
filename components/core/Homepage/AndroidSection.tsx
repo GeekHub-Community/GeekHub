@@ -2,11 +2,11 @@ import React from 'react'
 
 import Image from 'next/image'
 
-export const FifthSection = () => {
+export const AndroidSection = () => {
     return (
-        <div className='text-black bg-white flex flex-col lg:flex-row p-5  justify-evenly pt-[50px] pb-8'>
-             <div className='flex justify-center items-center'>
-                <Image alt='girlimage2' width={500} height={200} src='/home/girl3.svg'/>
+        <div className='text-black bg-white flex  flex-col lg:flex-row p-5  justify-evenly'>
+             <div className='flex justify-center items-center ' >
+                <Image alt='girlimage2' width={500} height={200} src='/home/girl.svg' />
             </div>
             <div className='lg:w-1/2  flex justify-center items-center'>
 
@@ -18,6 +18,7 @@ export const FifthSection = () => {
                 
             </div>
 
+           
         </div>
     )
 }

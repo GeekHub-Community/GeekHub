@@ -2,7 +2,7 @@
 import { Player, Controls } from '@lottiefiles/react-lottie-player';
 import Image from 'next/image'
 
-export const SecondSection = () => {
+export const WebSection = () => {
     return (
         <div className='text-black bg-AthensGray flex  flex-col lg:flex-row p-5 justify-evenly'>
             <div className='lg:w-1/2  flex justify-center items-center'>

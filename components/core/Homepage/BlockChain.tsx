@@ -2,7 +2,7 @@ import React from 'react'
 
 import Image from 'next/image'
 
-export const ForthSection = () => {
+export const BlockChain = () => {
     return (
         <div className='text-black bg-AthensGray flex  flex-col lg:flex-row p-5  justify-evenly pt-[100px]'>
             

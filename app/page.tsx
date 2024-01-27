@@ -1,10 +1,14 @@
-import { FifthSection } from '@/components/core/Homepage/FifthSection'
-import { ForthSection } from '@/components/core/Homepage/ForthSection'
+import { AISection } from '@/components/core/Homepage/AISection'
+import { DsaSection } from '@/components/core/Homepage/DsaSection'
 import { HomeSection } from '@/components/core/Homepage/HomeSection'
-import { SecondSection } from '@/components/core/Homepage/SecondSection'
+import { WebSection } from '@/components/core/Homepage/WebSection'
 import ShowCase from '@/components/core/Homepage/ShowCase'
-import { ThirdSection } from '@/components/core/Homepage/ThirdSection'
+import { AndroidSection } from '@/components/core/Homepage/AndroidSection'
 import Introduction from '@/components/core/Homepage/introduction'
+import { DesignSection } from '@/components/core/Homepage/DesignSection'
+import { CyberSecurity } from '@/components/core/Homepage/CyberSecurity'
+import { BlockChain } from '@/components/core/Homepage/BlockChain'
+import { GameSection } from '@/components/core/Homepage/GameSection'
 
 export default function Home() {
   return (
@@ -15,10 +19,14 @@ export default function Home() {
         </div>
         <HomeSection />
         <Introduction/>
-        <SecondSection/>
-        <ThirdSection/>
-        <ForthSection/>
-        <FifthSection/>
+        <WebSection/>
+        <AndroidSection/>
+        <DsaSection/>
+        <AISection/>
+        <DesignSection/>
+        <CyberSecurity/>
+        <BlockChain/>
+        <GameSection/>
       </div>
     </main>
   )
