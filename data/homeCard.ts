@@ -35,42 +35,42 @@ export const IntroCardsData = [
   {
     icon: '/home/SpecialBrowser.svg',
     title: 'Mission',
-    desc: "Working towards the improvement of campus's coding culture by organizing regular coding classes, coding contests and geeky sessions."
+    desc: "Enhancing coding culture via regular classes, contests, and geeky sessions on campus."
   },
   {
     icon: '/home/usericon.svg',
     title: 'Vision',
-    desc: "To grow as a strong community in the world of coding, to make impact in various fields and uphold the integrity of GeekHub."
+    desc: "Growing as a strong coding community, impacting various fields, upholding GeekHub's integrity worldwide."
   },
   {
     icon: '/home/coursesIcon.svg',
     title: 'Value',
-    desc: "We believe that helping each other is the only way. We take care and always look to get the best out of everyone."
+    desc: "Believing in helping each other, taking care, and seeking the best from everyone consistently."
   },
   {
     icon: '/home/coursesIcon.svg',
     title: 'Awareness About Tech',
-    desc: "Help us react tier-two and tier-three citites whrer people do not know how tech education can change their lives."
+    desc: "Help us reach tier-two and tier-three cities, enlightening people on how tech education transforms lives."
   },
   {
     icon: '/home/coursesIcon.svg',
     title: 'Enthausiastic Mentor',
-    desc: "Finding like minded people who resonate with your goal is extremely importand Find such entausiastic people through GeekHub network."
+    desc: "Finding like-minded, enthusiastic individuals crucial for your goal through GeekHub's network."
   },
   {
     icon: '/home/coursesIcon.svg',
     title: 'Diversity',
-    desc: "Know how Diversity & Inclusion can play an important role in generating ideas, tem building and getting the maximum output."
+    desc: "Understand Diversity & Inclusion's vital role in generating ideas, team building, and achieving maximum output."
   },
   {
     icon: '/home/coursesIcon.svg',
     title: 'Skills Over Money',
-    desc: "All of our program do no require any money. We are looking out for passionate individuals whom we can transform"
+    desc: "Transform passionate individuals with our cost-free programs, no financial burden, seeking excellence"
   },
   {
     icon: '/home/coursesIcon.svg',
     title: 'Intership Opportunities',
-    desc: "Looking for a perfect team to work with? GeekHub's diverse and strong network can help you."
+    desc: "GeekHub's diverse network ensures finding the perfect, strong team for collaborative work."
   },
 
 ];
