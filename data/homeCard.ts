@@ -49,7 +49,7 @@ export const IntroCardsData = [
   },
   {
     icon: '/home/coursesIcon.svg',
-    title: 'Awareness About Tech',
+    title: 'Tech Awareness',
     desc: "Help us reach tier-two and tier-three cities, enlightening people on how tech education transforms lives."
   },
   {
