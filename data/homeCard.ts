@@ -40,11 +40,37 @@ export const IntroCardsData = [
   {
     icon: '/home/usericon.svg',
     title: 'Vision',
-    desc: "To grow as a strong community in the world of coding, to make impact in various fields and uphold the integrity of Asansol Engineering College as a technical institution."
+    desc: "To grow as a strong community in the world of coding, to make impact in various fields and uphold the integrity of GeekHub."
   },
   {
     icon: '/home/coursesIcon.svg',
     title: 'Value',
     desc: "We believe that helping each other is the only way. We take care and always look to get the best out of everyone."
   },
+  {
+    icon: '/home/coursesIcon.svg',
+    title: 'Awareness About Tech',
+    desc: "Help us react tier-two and tier-three citites whrer people do not know how tech education can change their lives."
+  },
+  {
+    icon: '/home/coursesIcon.svg',
+    title: 'Enthausiastic Mentor',
+    desc: "Finding like minded people who resonate with your goal is extremely importand Find such entausiastic people through GeekHub network."
+  },
+  {
+    icon: '/home/coursesIcon.svg',
+    title: 'Diversity',
+    desc: "Know how Diversity & Inclusion can play an important role in generating ideas, tem building and getting the maximum output."
+  },
+  {
+    icon: '/home/coursesIcon.svg',
+    title: 'Skills Over Money',
+    desc: "All of our program do no require any money. We are looking out for passionate individuals whom we can transform"
+  },
+  {
+    icon: '/home/coursesIcon.svg',
+    title: 'Intership Opportunities',
+    desc: "Looking for a perfect team to work with? GeekHub's diverse and strong network can help you."
+  },
+
 ];
