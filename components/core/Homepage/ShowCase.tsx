@@ -5,7 +5,7 @@ import TypewriterComponent from 'typewriter-effect'
 const ShowCase = () => {
     return (
         <div className="HeroBack">
-            <div className="h-full w-full bg-black/70 flex flex-col justify-center items-center border">
+            <div className="h-full w-full bg-black/40 flex flex-col justify-center items-center border">
 
                 <div className="flex w-full  justify-center mb-6 ">
                     <div className='flex-1 text-right font-black text-7xl tracking-wide	'>

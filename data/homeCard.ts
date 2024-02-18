@@ -35,16 +35,42 @@ export const IntroCardsData = [
   {
     icon: '/home/SpecialBrowser.svg',
     title: 'Mission',
-    desc: "Working towards the improvement of campus's coding culture by organizing regular coding classes, coding contests and geeky sessions."
+    desc: "Enhancing coding culture via regular classes, contests, and geeky sessions on campus."
   },
   {
     icon: '/home/usericon.svg',
     title: 'Vision',
-    desc: "To grow as a strong community in the world of coding, to make impact in various fields and uphold the integrity of Asansol Engineering College as a technical institution."
+    desc: "Growing as a strong coding community, impacting various fields, upholding GeekHub's integrity worldwide."
   },
   {
     icon: '/home/coursesIcon.svg',
     title: 'Value',
-    desc: "We believe that helping each other is the only way. We take care and always look to get the best out of everyone."
+    desc: "Believing in helping each other, taking care, and seeking the best from everyone consistently."
   },
+  {
+    icon: '/home/coursesIcon.svg',
+    title: 'Tech Awareness',
+    desc: "Help us reach tier-two and tier-three cities, enlightening people on how tech education transforms lives."
+  },
+  {
+    icon: '/home/coursesIcon.svg',
+    title: 'Enthausiastic Mentor',
+    desc: "Finding like-minded, enthusiastic individuals crucial for your goal through GeekHub's network."
+  },
+  {
+    icon: '/home/coursesIcon.svg',
+    title: 'Diversity',
+    desc: "Understand Diversity & Inclusion's vital role in generating ideas, team building, and achieving maximum output."
+  },
+  {
+    icon: '/home/coursesIcon.svg',
+    title: 'Skills Over Money',
+    desc: "Transform passionate individuals with our cost-free programs, no financial burden, seeking excellence"
+  },
+  {
+    icon: '/home/coursesIcon.svg',
+    title: 'Intership Opportunities',
+    desc: "GeekHub's diverse network ensures finding the perfect, strong team for collaborative work."
+  },
+
 ];
