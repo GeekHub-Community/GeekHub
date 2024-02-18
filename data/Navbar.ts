@@ -5,7 +5,7 @@ export const Navlinks = [
     },
     {
         title:'Members',
-        href:'/',
+        href:'/members',
     },
     {
         title:'Community',
