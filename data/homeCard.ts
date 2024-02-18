@@ -62,15 +62,5 @@ export const IntroCardsData = [
     title: 'Diversity',
     desc: "Understand Diversity & Inclusion's vital role in generating ideas, team building, and achieving maximum output."
   },
-  {
-    icon: '/home/coursesIcon.svg',
-    title: 'Skills Over Money',
-    desc: "Transform passionate individuals with our cost-free programs, no financial burden, seeking excellence"
-  },
-  {
-    icon: '/home/coursesIcon.svg',
-    title: 'Intership Opportunities',
-    desc: "GeekHub's diverse network ensures finding the perfect, strong team for collaborative work."
-  },
 
 ];

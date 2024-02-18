@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const IntroCards = ({ icon, title, desc }:any) => {
   return (
-    <div className="shadow rounded" data-aos="flip-right" data-aos-delay="300">
+    <div className="shadow rounded pb-5" data-aos="flip-right" data-aos-delay="300">
           <div className="w-full h-[7px] bg-blue  rounded-t"></div>
           <div className="p-5">
             <div className=" flex justify-center p-2">

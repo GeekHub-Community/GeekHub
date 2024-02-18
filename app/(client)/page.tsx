@@ -14,7 +14,7 @@ WebSection
 } from '@/components/core/Homepage'
 
 import { getAllMentors, getMentorByName } from '../../Services/apillist'
-import { Mentor } from '../utils/type';
+import { Mentor } from '../../utils/type';
 
 
 export default async function Home() {

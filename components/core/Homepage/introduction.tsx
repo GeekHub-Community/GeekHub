@@ -24,7 +24,7 @@ const Introduction = () => {
                     WHO ARE WE ?
                 </p>
                 <div className='flex justify-center mt-[30px]'>
-                    <div className='grid gap-y-12 grid-cols-4 gap-4  justify-evenly w-4/5 md:grid-cols-4'>
+                    <div className='grid gap-y-12 lg:grid-cols-3 gap-9  justify-evenly w-4/5 '>
                         {IntroCardsData.map((items, index) => {
                             return <IntroCards key={index} {...items} />;
                         })}
