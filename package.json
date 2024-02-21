@@ -12,6 +12,7 @@
     "@lottiefiles/react-lottie-player": "^3.5.3",
     "@sanity/image-url": "^1.0.2",
     "@sanity/vision": "^3.26.1",
+    "@vercel/analytics": "^1.2.2",
     "aos": "^2.3.4",
     "framer-motion": "^10.16.16",
     "lucide-react": "^0.331.0",
