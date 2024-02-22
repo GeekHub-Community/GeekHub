@@ -38,3 +38,7 @@ body {
    background-size: cover;
    height: 90vh;
 }
+
+.timeline{
+  padding: 1rem;
+}
