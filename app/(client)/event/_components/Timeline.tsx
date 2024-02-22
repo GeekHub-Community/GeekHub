@@ -5,6 +5,9 @@ import { Chrono } from "react-chrono";
 
 const Timeline = () => {
 
+  if (typeof window === "undefined") {
+    return null; 
+  }
 
   return (
     <div className="w-4/5">
