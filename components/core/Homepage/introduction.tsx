@@ -39,7 +39,7 @@ const Introduction = () => {
                         Objectives
                         <hr className='mt-2 w-[170px] m-auto' />
                     </p>
-                    <div className='w-4/5 text-center mx-auto mt-2 p-5'>
+                    <div className='md:w-4/5 md:text-center mx-auto mt-2 md:p-5'>
                         <p className='text-xs md:text-sm text-black/80'>
                             {` The GeekHub  Club started its journey on  2016. Its
             major objective is to motivate students' interest in learning
