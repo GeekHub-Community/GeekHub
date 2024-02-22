@@ -1,18 +1,21 @@
+"use client"
 import { Navlinks } from '@/data/Navbar'
 import Image from 'next/image'
 import Link from 'next/link'
+import { useState } from 'react'
 
 export const Navbar = () => {
+    const [isMenu, setisMenu] = useState<boolean>(false)
   return (
 
-    <div className='flex justify-between  w-full lg:max-w-[1600px] shadow fixed top-0  bg-blue  text-black p-4 z-[100] '>
+    <div className='flex justify-between  w-full lg:max-w-[1600px] shadow fixed top-0  bg-blue  text-black p-4 z-[100] h-16'>
         <div className='flex  ml-5'>
             <Link href='/' className='flex gap-2'>
-                <Image alt='Logo' width={40} height={40} src='/logo.jpg' className='rounded-full border-2 border-white/70'/>
+                <Image alt='Logo' width={1000} height={1000} src='/logo.jpg' className='rounded-full border-2 border-white/70 h-10 w-10'/>
                 <h2 className='md:text-2xl font-bold text-white mt-2 md:mt-1'>GeekHub</h2>
             </Link>
         </div>
-        <div className=' gap-2 mt-2 mr-2 hidden sm:flex'>
+        <div className=' gap-2 mt-2 mr-2 hidden md:flex'>
             {
                 Navlinks.map((link)=>(
                      <Link key={link.title} href={link.href}>
@@ -20,6 +23,9 @@ export const Navbar = () => {
                      </Link>
                 ))
             }
+        </div>
+        <div className=' gap-2 mt-2 mr-2  md:hidden'>
+            <div className='text-white'>menu</div>
         </div>
     </div>
         

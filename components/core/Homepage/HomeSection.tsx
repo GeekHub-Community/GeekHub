@@ -10,7 +10,7 @@ export const HomeSection = () => {
 
                 <div className='flex   w-full justify-center  md:justify-end items-center p-5  md:p-[60px]'>
 
-                    <div className=' flex flex-col gap-3 lg:w-4/5 p-1 text-center lg:text-right'>
+                    <div className=' flex flex-col gap-3 lg:w-4/5 p-1 text-center lg:text-right items-center lg:items-end'>
                         <h2 className='text-xl md:text-3xl font-bold text-blue '>Learn, Grow, Connect,Collaborate 👏</h2>
                         <p className='text-xs md:text-sm text-black/80 w-4/5 md:w-full lg:text-right'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
                             mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
@@ -37,7 +37,7 @@ export const HomeSection = () => {
                             autoplay
                             loop
                             src="/home/world.json"
-                            className='h-[450px] w-[450px] lg:h-[700px] lg:w-[700px]'
+                            className='h-[400px] w-[400px] md:h-[450px] md:w-[450px] lg:h-[700px] lg:w-[700px]'
                         >
                         </Player>
                     </motion.div>

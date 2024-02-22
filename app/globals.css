@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -32,11 +33,18 @@ body {
 }
 
 .HeroBack{
-   background: url('/slider/bghome.jpg');
-   background-position: contain;
-   background-attachment: fixed;
-   background-size: cover;
-   height: 90vh;
+  background: url('/slider/bghome.jpg');
+  background-position: contain;
+  background-attachment: fixed;
+  background-position-y: 4rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 1024px) {
+  .HeroBack {
+     background-position-y: 0rem;
+  }
 }
 
 .timeline{
