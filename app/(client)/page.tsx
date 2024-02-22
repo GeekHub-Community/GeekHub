@@ -15,6 +15,7 @@ WebSection
 
 import { getAllMentors, getMentorByName } from '../../Services/apillist'
 import { Mentor } from '../../utils/type';
+import Testimonials from '@/components/core/Homepage/Testimonials';
 
 
 export default async function Home() {
@@ -40,6 +41,7 @@ export default async function Home() {
         <CyberSecurity/>
         <BlockChain/>
         <GameSection/>
+        <Testimonials/>
         <TestSection/>
       </div>
     </main>

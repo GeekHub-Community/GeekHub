@@ -11,8 +11,4 @@ export const Navlinks = [
         title:'Events',
         href:'/event',
     },
-    {
-        title:'About us',
-        href:'/',
-    },
 ]

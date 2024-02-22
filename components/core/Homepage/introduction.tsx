@@ -35,10 +35,10 @@ const Introduction = () => {
             <div className='sections objective-sec' data-aos='fade-up'>
 
                 <div className='w-4/5 mx-auto mt-[60px]' data-aos='fade-up'>
-                    <p className='text-center font-bold text-3xl text-blue uppercase p-3'>
+                    <div className='text-center font-bold text-3xl text-blue uppercase p-3'>
                         Objectives
                         <hr className='mt-2 w-[170px] m-auto' />
-                    </p>
+                    </div>
                     <div className='w-4/5 text-center mx-auto mt-2 p-5'>
                         <p className='text-xs md:text-sm text-black/80'>
                             {` The GeekHub  Club started its journey on  2016. Its

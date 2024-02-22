@@ -6,10 +6,10 @@ import { CountNumbers } from "@/data/Numbers";
 const Numbers = () => {
   return (
     <>
-      <p className="text-center font-bold text-2xl pt-[50px] uppercase" data-aos='fade-up'>
+      <div className="text-center font-bold text-2xl pt-[50px] uppercase" data-aos='fade-up'>
         So far we have witnessed
         <hr className="intro-head-hr" />
-      </p>
+      </div>
 
       <div className="aeccc-count-container">
         {
