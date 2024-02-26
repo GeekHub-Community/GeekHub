@@ -15,7 +15,7 @@ export const DsaSection = () => {
                 
             </div>
             <div className='flex justify-center items-center'>
-                <Image alt='girlimage2' width={500} height={200} src='/home/dsa1.png'/>
+                <Image alt='girlimage2' width={500} height={200} src='/home/dsa1.png' className='h-[300px] w-[300px] md:h-[500px] md:w-[500px]'/>
             </div>
            
         </div>

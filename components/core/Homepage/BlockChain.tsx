@@ -16,7 +16,7 @@ export const BlockChain = () => {
                 
             </div>
             <div className='flex justify-center items-center'>
-                <Image alt='blockchain' width={500} height={200} src='/home/blockchain.png'/>
+                <Image alt='blockchain' width={500} height={200} src='/home/blockchain.png' className='h-[300px] w-[300px] md:h-[500px] md:w-[500px]'/>
             </div>
         </div>
     )

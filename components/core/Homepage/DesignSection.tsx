@@ -16,7 +16,7 @@ export const DesignSection = () => {
                 
             </div>
             <div className='flex justify-center items-center'>
-                <Image alt='Designing' width={500} height={200} src='/home/designing.png'/>
+                <Image alt='Designing' width={500} height={200} src='/home/designing.png' className='h-[300px] w-[300px] md:h-[500px] md:w-[500px]'/>
             </div>
            
         </div>
