@@ -6,7 +6,7 @@ export const GameSection = () => {
     return (
         <div className='text-black bg-white flex  flex-col lg:flex-row p-5  justify-evenly'>
              <div className='flex justify-center items-center ' >
-                <Image alt='girlimage2' width={500} height={200} src='/home/game.jpg' />
+                <Image alt='girlimage2' width={500} height={200} src='/home/game.jpg' className='h-[300px] w-[300px] md:h-[500px] md:w-[500px]'/>
             </div>
             <div className='lg:w-1/2  flex justify-center items-center'>
 

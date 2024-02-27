@@ -9,7 +9,7 @@ const Themes = () => {
                 <h1 className='text-4xl font-bold'>Themes</h1>
             </div>
             <div className='flex justify-center  mt-[50px] mb-[50px]'>
-                <div className='w-4/5 px-8 grid grid-cols-3 gap-8 mb-7'>
+                <div className='w-4/5 px-8 grid md:grid-cols-3 gap-8 mb-7'>
                     {
                         ThemesData.map((theme) => (
                             <div key={theme.id} className='flex flex-col gap-4 shadow rounded bg-yellow-100/20'>

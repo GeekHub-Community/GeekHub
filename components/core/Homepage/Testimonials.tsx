@@ -4,10 +4,10 @@ import React from 'react'
 
 const Testimonials = () => {
     return (
-        <div className='bg-white text-black p-[70px] max-h-[100px] '>
+        <div className='bg-white text-black p-[70px]'>
             <h1 className='text-3xl font-bold text-center mb-5'>Testimonials</h1>
-            <div className='flex justify-center items-center h-full'>
-                <div className='w-4/5 h-full grid md:grid-cols-3 gap-5 overflow-y-scroll overflow-hidden'>
+            <div className='flex justify-center items-center max-h-[1000px] overflow-y-auto'>
+                <div className='w-4/5 grid md:grid-cols-3 gap-5 '>
                     {
                         TestimonialsData.map((tes) => (
                             <div key={tes.id} className='border p-5 rounded-lg h-60 flex justify-between flex-col'>
@@ -17,7 +17,7 @@ const Testimonials = () => {
                                     </div>
                                     <div className='flex flex-col ml-5'>
                                         <p className='text-sm font-semibold'>{tes.name}</p>
-                                        <div className='text-xs font-medium text-gray-500 flex gap-2'>
+                                        <div className='text-[10px] md:text-xs font-medium text-gray-500 flex gap-2'>
                                             <p >{tes.profession}</p>
                                             <p className='font-semibold'>@{tes.currentCompany}</p>
                                         </div>
