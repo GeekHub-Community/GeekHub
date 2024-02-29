@@ -25,7 +25,7 @@ export const Navbar = () => {
                     <h2 className='md:text-2xl font-bold text-white mt-2 md:mt-1'>GeekHub</h2>
                 </Link>
             </div>
-            <div className=' gap-2 mt-2 mr-2 hidden md:flex'>
+            <div className=' gap-8 mr-10   hidden md:flex'>
                 {
                     Navlinks.map((link) => (
                         <Link key={link.title} href={link.href}>
