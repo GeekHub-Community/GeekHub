@@ -1,8 +1,28 @@
 "use client"
+import { Navlinks } from '@/data/Navbar';
 import { Player } from '@lottiefiles/react-lottie-player';
 import { motion } from 'framer-motion'
+import Link  from 'next/link';
+import { useEffect, useState } from 'react';
 
 export const HomeSection = () => {
+    const [isDraggable, setIsDraggable] = useState(false);
+
+    useEffect(() => {
+        function handleResize() {
+            if (window.innerWidth > 768) {
+                setIsDraggable(true);
+            } else {
+                setIsDraggable(false);
+            }
+        }
+        window.addEventListener('resize', handleResize);
+        handleResize();
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+
     return (
         <div className='min-h-screen w-full bg-white text-black'>
 
@@ -16,7 +36,9 @@ export const HomeSection = () => {
                             mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
                         <div className='flex gap-5 font-semibold mt-2  justify-center lg:justify-end'>
                             <button className='p-2 bg-black px-7 text-white rounded'>Get Started</button>
+                            <Link href='/members'>
                             <button className='p-2 border border-black px-7  rounded'>Learn More</button>
+                            </Link>
                         </div>
                     </div>
 
@@ -26,7 +48,7 @@ export const HomeSection = () => {
                     <motion.div
                         animate={{ x: [200, 0] }}
                         transition={{ type: "spring", duration: 4 }}
-                        drag
+                        drag={isDraggable}
                         dragTransition={{
                             min: 0,
                             max: 10,

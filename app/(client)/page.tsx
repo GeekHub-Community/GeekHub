@@ -13,21 +13,15 @@ TestSection,
 WebSection 
 } from '@/components/core/Homepage'
 
-import { getAllMentors, getMentorByName } from '../../Services/apillist'
-import { Mentor } from '../../utils/type';
 import Testimonials from '@/components/core/Homepage/Testimonials';
 
 
-export default async function Home() {
-  const mentorList: Mentor[] = await getAllMentors();
-  // console.log("All Mentors : => ",mentorList);
+export default function Home() {
 
-  const mentor: Mentor = await getMentorByName(mentorList[0]?.slug?.current);
-  // console.log("Mentor by Name :=> ",mentor);
 
   return (
     <main className="flex min-h-screen flex-col">
-      <div className='border lg:max-w-[1600px]'>
+      <div className='border max-w-screen'>
         <div className='w-full'>
           <ShowCase/>
         </div>

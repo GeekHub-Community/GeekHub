@@ -7,11 +7,17 @@ const Page = () => {
   const [AllMembers, setAllMembers] = useState<any[]>()
 
   const call = async () => {
-    const response = await getAllMentorsByYear();
-    // console.log(response);
-    const sortedMembers = response.sort((a: any, b: any) => b.mentors.length - a.mentors.length);
-    console.log("sortedMembers: ", sortedMembers)
-    setAllMembers(sortedMembers);
+    try{
+
+      const response = await getAllMentorsByYear();
+      // console.log(response);
+      const sortedMembers = response.sort((a: any, b: any) => b.mentors.length - a.mentors.length);
+      console.log("sortedMembers: ", sortedMembers)
+      setAllMembers(sortedMembers);
+    }catch(error){
+      console.log(error);
+    }
+    
   }
 
   useEffect(() => {
@@ -19,10 +25,10 @@ const Page = () => {
   }, [])
 
   return (
-    <div className="min-h-screen bg-white w-full text-black overflow-hidden">
-    <div className="mt-28 mb-24">
+    <div className="min-h-screen bg-white w-full text-black">
+    <div className="mt-28 mb-24 w-full  flex flex-col items-center justify-center gap-10">
       {AllMembers?.map((members) => (
-        <div key={members.year} className="flex flex-col gap-5 items-center justify-center">
+        <div key={members.year} className="flex flex-col gap-10 items-center justify-center w-full">
           <p className="font-bold text-3xl pt-5">
             Geeks Of <span className="text-blue">{members.year}</span>
           </p>

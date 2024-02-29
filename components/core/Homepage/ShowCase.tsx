@@ -4,8 +4,8 @@ import TypewriterComponent from 'typewriter-effect'
 
 const ShowCase = () => {
     return (
-        <div className="HeroBack h-[30vh] md:h-[90vh] relative bg-y-">
-            <div className="h-full w-full bg-black/40 flex flex-col justify-end  items-center border md:justify-center pb-16 md:pb-0">
+        <div className="HeroBack h-[55vw] md:h-[45vw] relative" >
+            <div className="h-full w-full bg-black/40 flex flex-col justify-end  items-center border md:justify-center pb-14 md:pb-0">
                 <div className="flex w-full justify-center ">
                     <div className='flex-1 text-right font-black text-2xl md:text-7xl tracking-wide	'>
                         <h1 className='text-white mr-3'>Welcome to</h1>
@@ -26,11 +26,12 @@ const ShowCase = () => {
                     </div>
                 </div>
 
-                <div className=' absolute top-full'>
+                <div className=' absolute top-full '>
                     <Player
                         autoplay
                         loop
                         src="/slider/mouse.json"
+                        className='h-14 md:h-20'
                     >
                     </Player>
                 </div>

@@ -81,7 +81,7 @@
 }
 
 .HeroBack{
-  background: url('/slider/bghome.jpg');
+  background: url('/slider/bghome.webp');
   background-position: contain;
   background-attachment: fixed;
   background-position-y: 4rem;
@@ -95,6 +95,29 @@
   }
 }
 
-.timeline{
-  padding: 1rem;
+.timeline-chrono{
+  background-color: blue;
+  font-size: 2rem;
+  
+}
+
+.testimonials::-webkit-scrollbar{
+  background-color: transparent;
+  width: 5px;
+
+}
+.testimonials::-webkit-scrollbar-track{
+  background-color: antiquewhite;
+  border-radius: 2px;
+
+}
+.testimonials::-webkit-scrollbar-thumb{
+  background-color: #eac390;
+  border-radius: 2px;
+
+}
+.testimonials::-webkit-scrollbar-thumb:hover{
+  background-color: #f3b86b;
+  
+
 }

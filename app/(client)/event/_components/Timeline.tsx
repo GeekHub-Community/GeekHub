@@ -10,14 +10,13 @@ const Timeline = () => {
   }
 
   return (
-    <div className="w-4/5">
-      <div className='flex justify-center mt-5 mb-5'>
+    <div className=" md:w-4/5">
+      <div className='flex justify-center my-5'>
         <h1 className='text-4xl font-bold'>Timeline</h1>
       </div>
       <Chrono items={TImeLine} 
-      mode="VERTICAL_ALTERNATING"
+        mode="VERTICAL_ALTERNATING"
         timelinePointDimension={20}
-        className="timeline"
         theme={{
           primary: "blue",
           secondary: "#f5f5f5",
@@ -30,8 +29,10 @@ const Timeline = () => {
           cardSubtitle: '0.85rem',
           cardText: '0.8rem',
           cardTitle: '1.2rem',
-          title: '1.5rem',
+          title: '0.9rem'
         }}
+        
+        
       />
     </div>
   )
