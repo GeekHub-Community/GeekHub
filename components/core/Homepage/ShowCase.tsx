@@ -1,4 +1,5 @@
 "use client"
+import RecentButton from '@/components/common/RecentButton';
 import { Player } from '@lottiefiles/react-lottie-player';
 import TypewriterComponent from 'typewriter-effect'
 
@@ -26,7 +27,8 @@ const ShowCase = () => {
                     </div>
                 </div>
 
-                <div className=' absolute top-full '>
+                <div className=' absolute top-[120%] md:top-full '>
+                <RecentButton showit={true} style='absolute  bottom-full' text='Register for Hackathon'/>
                     <Player
                         autoplay
                         loop

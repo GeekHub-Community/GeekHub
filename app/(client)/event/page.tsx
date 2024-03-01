@@ -1,6 +1,7 @@
 import React from 'react'
 import Themes from './_components/theme'
 import Timeline from './_components/Timeline'
+import Event from './_components/Event'
 
 const page = () => {
 
@@ -8,6 +9,9 @@ const page = () => {
         <div className='min-h-screen  w-full pt-[80px] text-black bg-white'>
             <div className='flex justify-center'>
                 <Timeline />
+            </div>
+            <div>
+                <Event/>
             </div>
             <div>
                 <Themes />

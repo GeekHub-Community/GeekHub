@@ -4,30 +4,23 @@ export const Links = [
         href:'/'
     },
     {
-        title:'Shop',
-        href:'/shop'
+        title:'Members',
+        href:'/members'
     },
     {
-        title:'About',
-        href:'/about'
+        title:'Events',
+        href:'/event'
     },
-    {
-        title:'Contact',
-        href:'/contact'
-    },
+
 ]
 
 export const Help = [
     {
-        title:'Payment Options',
-        href:'/help'
+        title:'Instagram',
+        href:'https://www.instagram.com/geekhub_uiet?igsh=N2kxMjQ3amw3MzQ2'
     },
     {
-        title:'Returns',
-        href:'/help'
+        title:'WhatsApp',
+        href:'https://chat.whatsapp.com/EXdiXopBNcu8OUQAHPNiHO'
     },
-    {
-        title:'Privacy Policies',
-        href:'/help'
-    }
 ]

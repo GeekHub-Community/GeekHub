@@ -1,3 +1,4 @@
+import RecentButton from '@/components/common/RecentButton';
 import { 
 AISection, 
 AndroidSection, 
@@ -24,7 +25,10 @@ export default function Home() {
       <div className='border max-w-screen'>
         <div className='w-full'>
           <ShowCase/>
+          
+
         </div>
+        
         <HomeSection />
         <Introduction/>
         <WebSection/>

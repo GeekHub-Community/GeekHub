@@ -81,7 +81,7 @@
 }
 
 .HeroBack{
-  background: url('/slider/bghome.webp');
+  background: url('/slider/bghome.jpg');
   background-position: contain;
   background-attachment: fixed;
   background-position-y: 4rem;
@@ -103,9 +103,10 @@
 
 .testimonials::-webkit-scrollbar{
   background-color: transparent;
-  width: 5px;
-
 }
+  /* width: 5px; */
+
+/* }
 .testimonials::-webkit-scrollbar-track{
   background-color: antiquewhite;
   border-radius: 2px;
@@ -120,4 +121,15 @@
   background-color: #f3b86b;
   
 
+} */
+
+.animate-rotate{
+  top: 50%;
+  left: 50%;
+  animation: border-rotate 4s linear infinite ;
 }
+ @keyframes border-rotate {
+  0%{transform: translateY(-50%) translateX(-50%) rotate(0deg);}
+  100%{transform: translateY(-50%) translateX(-50%) rotate(-360deg);}
+
+ }
