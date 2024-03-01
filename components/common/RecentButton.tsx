@@ -6,11 +6,12 @@ import React, { useState } from 'react'
 interface RecentButtonPops{
     showit: boolean,
     style?: string,
-    text?: string
+    text?: string,
+    link?: string
 
 }
 
- const RecentButton = ({showit, style, text}:RecentButtonPops) => {
+ const RecentButton = ({showit, style, text, link}:RecentButtonPops) => {
   const [show, setShow] = useState<boolean>(showit);
 
   return (
@@ -22,7 +23,7 @@ interface RecentButtonPops{
                 </div>
             <div className='relative p-[1px] overflow-hidden rounded-lg '>
                 <div className='absolute -z-[1] rounded-lg  h-[80%] w-[110%] bg-sky-100  animate-rotate'></div>
-            <Link href='/event' className={``}>   
+            <Link href={link || '/'} className={``}>   
                 <button className='py-3 px-4 rounded-lg bg-sky-700  text-white text-xs md:text-base w-60 font-semibold '>{text}</button>
             </Link>
             </div>

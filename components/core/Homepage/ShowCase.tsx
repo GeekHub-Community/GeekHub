@@ -28,7 +28,7 @@ const ShowCase = () => {
                 </div>
 
                 <div className=' absolute top-[120%] md:top-full '>
-                <RecentButton showit={true} style='absolute  bottom-full' text='Register for Hackathon'/>
+                <RecentButton showit={true} style='absolute  bottom-full' text='Register for Hackathon' link='/event'/>
                     <Player
                         autoplay
                         loop

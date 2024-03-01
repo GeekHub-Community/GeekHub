@@ -18,8 +18,8 @@ export const TImeLine = [
   },
   {
     title: "coming soon",
-    cardTitle: "GEEKHUB X HACKATHON",
-    url: "https://docs.google.com/forms/d/1_hxhGJcTFERqIOzs-d6aEimKb9xL6zLNx_x0JGbkrg4/edit?usp=sharing_eip_se_dm&ts=65df44da",
+    cardTitle: "Problem Statements",
+    url: "/",
     cardSubtitle:
       "Sportech - 2024 by GEEKHUB",
     cardDetailedText: [
