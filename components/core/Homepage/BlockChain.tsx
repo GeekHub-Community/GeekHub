@@ -10,8 +10,7 @@ export const BlockChain = () => {
 
                 <div className=' p-8'>
                     <h2 className='font-bold text-2xl'>Web3 & Blockchain</h2>
-                    <p className=' text-xs md:text-sm md:w-4/5'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-                        mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+                    <p className=' text-xs md:text-sm md:w-4/5'>Wandering into the wild and wacky world of Web3 & Blockchain, GeekHub extends an invitation to become a digital pioneer - where every 'block' marks a step toward reshaping the digital landscape. Explore smart contracts, decentralized finance (DeFi), and the transparency of distributed ledgers. With GeekHub as your navigator and our tech-savvy community as companions, traverse the decentralized wilderness and unlock the secrets of Web3. Connect, collaborate, and realize your digital aspirations with us, riding the waves of innovation through the ever-changing crypto landscape."</p>
                 </div>
                 
             </div>

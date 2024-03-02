@@ -12,8 +12,7 @@ export const AndroidSection = () => {
 
                 <div className=' p-8'>
                     <h2 className='font-bold text-2xl'>Android Development</h2>
-                    <p className=' text-xs md:text-sm md:w-4/5'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-                        mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+                    <p className=' text-xs md:text-sm md:w-4/5'>GeekHub welcomes you to the vibrant world of Android Development, where innovation meets opportunity. Join our dynamic community to embark on a journey of app creation and mastery. Delve into the realms of Java/Kotlin, Android Studio, and cutting-edge frameworks like Flutter. From crafting captivating UI/UX experiences to seamless backend integration, GeekHub empowers you to turn your ideas into reality. Connect, collaborate, and chart your path to success with GeekHub - where creativity knows no bounds.</p>
                 </div>
                 
             </div>

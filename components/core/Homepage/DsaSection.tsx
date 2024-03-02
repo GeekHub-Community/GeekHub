@@ -9,8 +9,7 @@ export const DsaSection = () => {
 
                 <div className=' p-8'>
                     <h2 className='font-bold text-2xl'>Data Structure & Algorithms</h2>
-                    <p className=' text-xs md:text-sm md:w-4/5'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-                        mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+                    <p className=' text-xs md:text-sm md:w-4/5'>Welcome to GeekHub, where we unravel the intricate world of Data Structures & Algorithms. Join us on a journey of logical exploration and problem-solving mastery. Dive into the fundamentals of arrays, linked lists, and trees. Unlock the secrets of algorithms like sorting, searching, and dynamic programming. With GeekHub's supportive community and expert guidance, excel in competitive coding platforms like LeetCode, GeeksforGeeks, CodeChef, and HackerRank. Connect, collaborate, and sharpen your skills with GeekHub - where every line of code tells a story of innovation.</p>
                 </div>
                 
             </div>

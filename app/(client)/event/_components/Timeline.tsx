@@ -1,12 +1,36 @@
 "use client"
-import { TImeLine } from "@/data/Event";
-import React from "react"
+// import { TImeLine } from "@/data/Event";
+import React, { useEffect, useState } from "react"
 import { Chrono } from "react-chrono";
 
 const Timeline = () => {
 
+  const [TImeLine, setTImeLine] = useState<[]>([]);
+
   if (typeof window === "undefined") {
     return null; 
+  }
+
+  const call =async ()=>{
+    try{
+       const response :Response= await fetch('https://api.npoint.io/6daaa2d887e0762eaddf');
+    const data = await response.json();
+    setTImeLine(data.TimeLine);
+    } catch (error){
+      
+    }
+   
+  }
+
+  useEffect(()=>{
+    call();
+
+  },[])
+
+
+  if(TImeLine.length ===0){
+    return (<></>);
+    
   }
 
   return (
