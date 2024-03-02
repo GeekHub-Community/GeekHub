@@ -15,7 +15,7 @@ const Themes = () => {
         <div>
 
             <div className='flex justify-center mt-10'>
-                <h1 className='text-4xl font-bold' data-aos= 'fade-upnote'>Ideas</h1>
+                <h1 className='text-3xl font-bold' data-aos= 'fade-upnote'>Problem Statements</h1>
             </div>
             <div className='flex justify-center items-center  mt-[50px] mb-[50px] w-full'>
                 <div className='lg:w-4/5 flex gap-8 flex-wrap justify-center items-center'>
