@@ -42,7 +42,7 @@ export const Navbar = () => {
                             {
                                 Navlinks.map((link) => (
                                     <Link key={link.title} href={link.href}>
-                                        <p className='text-base text-blue font-semibold hover:text-blue/80  p-1 transition-all duration-200'>{link.title}</p>
+                                        <p className='text-base text-blue font-semibold hover:text-blue/80  p-1 transition-all duration-200 '>{link.title}</p>
                                     </Link>
                                 ))
                             }

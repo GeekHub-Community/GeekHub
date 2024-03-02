@@ -7,6 +7,8 @@ Welcome to the [GeekHub](https://geekhub-community.vercel.app/) repository!
 Geekhub, the official educational community club of [University Institute of Engineering & Technology, Rohatk](https://uietmdu.in/), at [Maharishi Dayanand University](https://mdu.ac.in/)
 The primary goal of Geekhub is to foster collaboration and the growth of individuals within the college community. This repository serves as an open invitation for anyone to contribute and be a part of our collective journey.
 
+lorem ipsum
+
 ### Project Purpose
 
 - **Collaboration:** Geekhub aims to create a collaborative environment where students can work together on meaningful projects and share knowledge.
