@@ -1,12 +1,19 @@
-import React from 'react'
-
-import Image from 'next/image'
+"use client"
+import { Player } from '@lottiefiles/react-lottie-player'
 
 export const AISection = () => {
     return (
         <div className='text-black bg-white flex flex-col lg:flex-row p-5  justify-evenly pt-[50px] pb-8'>
              <div className='flex justify-center items-center'>
-                <Image alt='girlimage2' width={500} height={200} src='/home/aiml.png'/>
+                <Player
+                src='/home/AiMlAnimated.json'
+                autoplay
+                loop
+                className='h-[20rem] md:h-[25rem]'
+
+                >
+
+                </Player>
             </div>
             <div className='lg:w-1/2  flex justify-center items-center'>
 

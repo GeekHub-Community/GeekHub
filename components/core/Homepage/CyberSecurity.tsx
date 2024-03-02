@@ -1,17 +1,16 @@
 "use client"
 
-import Image from 'next/image'
 import { Player } from '@lottiefiles/react-lottie-player'
 
 export const CyberSecurity = () => {
     return (
         <div className='text-black bg-white flex  flex-col lg:flex-row p-5  justify-evenly'>
-             <div className='flex justify-center items-center ' >
-                {/* <Image alt='girlimage2' width={500} height={200} src='/home/cyber.png' className='h-[300px] w-[300px] md:h-[500px] md:w-[500px]'/> */}
+             <div className='flex justify-center items-center lg:py-14' >
                 <Player
-                    src='/home/CyberSecurity.json'
+                    src='/home/CyberSecurityAnimated.json'
                     autoplay
                     loop
+                    className='h-[22rem] '
                 >
 
                 </Player>

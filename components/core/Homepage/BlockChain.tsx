@@ -1,6 +1,6 @@
-import React from 'react'
+"use client"
 
-import Image from 'next/image'
+import { Player } from '@lottiefiles/react-lottie-player'
 
 export const BlockChain = () => {
     return (
@@ -15,7 +15,15 @@ export const BlockChain = () => {
                 
             </div>
             <div className='flex justify-center items-center'>
-                <Image alt='blockchain' width={500} height={200} src='/home/blockchain.png' className='h-[300px] w-[300px] md:h-[500px] md:w-[500px]'/>
+                
+                <Player 
+                src='/home/BlockChainAnimated.json'
+                autoplay
+                loop
+                className='h-[22rem]'
+                >
+
+                </Player>
             </div>
         </div>
     )

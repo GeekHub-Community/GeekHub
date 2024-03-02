@@ -1,20 +1,19 @@
 'use client'
 
-import Image from 'next/image'
 import { Player } from '@lottiefiles/react-lottie-player'
 
 export const GameSection = () => {
     return (
         <div className='text-black bg-white flex  flex-col lg:flex-row p-5  justify-evenly'>
              <div className='flex justify-center items-center ' >
-                <Image alt='girlimage2' width={500} height={200} src='/home/game.jpg' className='h-[300px] w-[300px] md:h-[500px] md:w-[500px]'/>
-                {/* <Player
+                <Player
                  src = '/home/GameDevelopmentAnimated.json'
                  autoplay
                  loop
-                > */}
+                 className=' md:h-[36rem] '
+                >
 
-                {/* </Player> */}
+                </Player>
             </div>
             <div className='lg:w-1/2  flex justify-center items-center'>
 

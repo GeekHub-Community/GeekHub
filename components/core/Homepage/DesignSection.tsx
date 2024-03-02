@@ -1,6 +1,6 @@
 'use client'
 
-import Image from 'next/image'
+
 import { Player } from '@lottiefiles/react-lottie-player'
 
 export const DesignSection = () => {
@@ -15,15 +15,15 @@ export const DesignSection = () => {
                 </div>
                 
             </div>
-            <div className='flex justify-center items-center'>
-                <Image alt='Designing' width={500} height={200} src='/home/designing.png' className='h-[300px] w-[300px] md:h-[500px] md:w-[500px]'/>
-                {/* <Player
+            <div className='flex justify-center items-center backdrop-blur-sm'>
+                <Player
                 src='/home/GraphicDesignerAnimated.json'
                 autoplay
                 loop 
+                className='h-[22rem] md:h-[26rem] lg:h-[30rem]'
                 >
 
-                </Player> */}
+                </Player>
             </div>
            
         </div>
