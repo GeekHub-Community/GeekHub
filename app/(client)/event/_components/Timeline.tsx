@@ -11,7 +11,7 @@ const Timeline = () => {
   useEffect(()=>{
     const fetchData = async () => {
       try {
-        const response = await fetch('https://api.npoint.io/6daaa2d887e0762eaddf');
+        const response = await fetch('https://api.npoint.io/e1757cd772aefd8fb0ae');
         const data = await response.json();
         setTImeLine(data.TimeLine);
       } catch (error) {

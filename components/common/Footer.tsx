@@ -43,7 +43,7 @@ export const Footer = () => {
                         <div className='flex flex-col justify-evenly h-full'>
                             {
                                 Help.map((link) => (
-                                    <Link key={link.href} href={link.href}>
+                                    <Link key={link.href} href={link.href} target='_blank'>
                                         <p>{link.title}</p>
                                     </Link>
                                 ))

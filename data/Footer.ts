@@ -17,7 +17,7 @@ export const Links = [
 export const Help = [
     {
         title:'Instagram',
-        href:'https://www.instagram.com/geekhub_uiet?igsh=N2kxMjQ3amw3MzQ2'
+        href:'https://www.instagram.com/geekhub_uiet/'
     },
     {
         title:'WhatsApp',

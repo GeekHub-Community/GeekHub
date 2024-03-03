@@ -67,17 +67,17 @@ const Themes = () => {
                                         >
                                         </Player> */}
 
-                                        <div className='h-56 flex flex-col gap-1 p-3 overflow-y-auto testimonials'>
+                                        <div className='h-56 flex gap-2 flex-col gap-1 p-3 overflow-y-auto testimonials'>
 
                                             <div className='text-xl font-bold '>Problem Statement</div>
                                             <div className=' flex gap-x-3 text-left '>
-                                                <div className='font-semibold text-slate-900'>ID:</div>
+                                                <div className='font-semibold text-slate-900'>PS:</div>
                                                 <div className='font-medium'>{problemStatement.id}</div>
                                             </div>
-                                            <div className='text-left '>
-                                                <div className='font-semibold text-slate-900'>Title</div>
-                                                <div className='font-medium'>{problemStatement.title}</div>
-                                            </div>
+                                         
+
+                                            <div className='font-medium text-left'>{problemStatement.title}</div>
+                                            
                                             
                                         </div>
                                       
@@ -92,10 +92,10 @@ const Themes = () => {
                                             <div className='flex flex-col gap-3 text-base'>
                                                 <div className='text-center text-2xl'>Problem Statement</div>
                                                 <div className='flex gap-3'>
-                                                    <div>ID: </div>
+                                                    <div>PS: </div>
                                                     <div className=''>{problemStatement.id}</div>
                                                 </div>
-                                                <div className='flex gap-3'>
+                                                <div className='flex flex-col'>
                                                     <div className=''>Title:</div>
                                                     <div className='text-sm text-left'>{problemStatement.title}</div>
                                                 </div>
@@ -104,13 +104,13 @@ const Themes = () => {
                                         </DialogTitle>
                                         <DialogDescription>
                                                 <div className='my-2'>
-                                                    <div className='text-base text-black text-left'>Description</div>
+                                                    <div className='font-semibold text-black text-left'>Description</div>
                                                     <div 
                                                     
                                                     className='text-slate-800 max-h-[60vh] overflow-y-auto testimonials text-left'>{problemStatement.description}</div>
                                                 </div>
                                                 <div className='flex mt-4 gap-3'>
-                                                    <div className='text-base text-black'>Tags: </div>
+                                                    <div className='font-semibold text-black'>Tags: </div>
                                                     <div className='flex gap-2 flex-wrap text-slate-800'>
                                                         <div>{problemStatement.tag}</div>
 
