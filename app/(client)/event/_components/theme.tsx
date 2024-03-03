@@ -32,7 +32,8 @@ const Themes = () => {
 
         const fetchData = async () => {
             try {
-              const response = await fetch('https://api.npoint.io/8ca94fe4486941247f15');
+            const url = process.env.NEXT_PUBLIC_PROBLEMAPI || ''
+              const response = await fetch(url);
               const data = await response.json();
               setProblemStatements(data.problemStatement);
              
@@ -96,7 +97,7 @@ const Themes = () => {
                                                     <div className=''>{problemStatement.id}</div>
                                                 </div>
                                                 <div className='flex flex-col'>
-                                                    <div className=''>Title:</div>
+                                                    <div className='text-left'>Title:</div>
                                                     <div className='text-sm text-left'>{problemStatement.title}</div>
                                                 </div>
                                             </div>

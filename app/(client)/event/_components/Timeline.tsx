@@ -11,7 +11,8 @@ const Timeline = () => {
   useEffect(()=>{
     const fetchData = async () => {
       try {
-        const response = await fetch('https://api.npoint.io/e1757cd772aefd8fb0ae');
+        const url = process.env.NEXT_PUBLIC_TIMELINEAPI || ''
+        const response = await fetch(url);
         const data = await response.json();
         setTImeLine(data.TimeLine);
       } catch (error) {
@@ -46,7 +47,7 @@ const Timeline = () => {
           cardSubtitle: '0.85rem',
           cardText: '0.8rem',
           cardTitle: '1.2rem',
-          title: '0.9rem'
+          title: '0.85rem'
         }}
         
         
