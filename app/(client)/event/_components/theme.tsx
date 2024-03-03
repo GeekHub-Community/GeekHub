@@ -1,24 +1,17 @@
 "use client"
 import { Player } from '@lottiefiles/react-lottie-player'
 import React, { useEffect, useState } from 'react'
+import { ThemesData } from '@/data/Themes';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import {
     Dialog,
-    DialogContent,
-    DialogDescription,
-    DialogHeader,
-    DialogTitle,
+
     DialogTrigger,
 } from "@/components/ui/dialog"
+import ContentDialog from './ContentDialog';
 
-interface problemStatementType{
-    id?: number,
-    title?: string,
-    description?: string[]
-    tag?: string
 
-}
 
 
 const Themes = () => {
@@ -32,17 +25,17 @@ const Themes = () => {
 
         const fetchData = async () => {
             try {
-            const url = process.env.NEXT_PUBLIC_PROBLEMAPI || ''
-              const response = await fetch(url);
-              const data = await response.json();
-              setProblemStatements(data.problemStatement);
-             
-            } catch (error) {
-              console.error("Error fetching Problem Statement data:", error);
-            }
-          };
+                const url = process.env.NEXT_PUBLIC_PROBLEMAPI || ''
+                const response = await fetch(url);
+                const data = await response.json();
+                setProblemStatements(data.problemStatement);
 
-          fetchData();
+            } catch (error) {
+                console.error("Error fetching Problem Statement data:", error);
+            }
+        };
+
+        fetchData();
     }, []);
 
     return (
@@ -53,20 +46,15 @@ const Themes = () => {
             </div>
             <div className='flex justify-center items-center  mt-[50px] mb-[50px] w-full'>
                 <div className='lg:w-4/5 flex gap-8 flex-wrap justify-center items-center'>
-                    {
-                        problemStatements.map((problemStatement) => (
+                    {(problemStatements && problemStatements.length > 0) ?
+
+                        (problemStatements.map((problemStatement) => (
                             <Dialog key={problemStatement.id} >
                                 <DialogTrigger >
-                                    <div className='flex flex-col shadow rounded bg-yellow-100/20 w-[20rem] '              data-aos='flip-right'>
+                                    <div className='flex flex-col shadow rounded bg-yellow-100/20 w-[20rem] ' data-aos='flip-right'>
                                         <div className="w-full h-[7px] bg-blue  rounded-t p-0"></div>
-                                        
-                                            {/* <Player
-                                            src='/event/comingSoon.json'
-                                            autoplay
-                                            loop
-                                            className='h-56'
-                                        >
-                                        </Player> */}
+
+                                
 
                                         <div className='h-56 flex gap-2 flex-col p-3 overflow-y-auto testimonials'>
 
@@ -75,68 +63,39 @@ const Themes = () => {
                                                 <div className='font-semibold text-slate-900'>PS:</div>
                                                 <div className='font-medium'>{problemStatement.id}</div>
                                             </div>
-                                         
+
 
                                             <div className='font-medium text-left'>{problemStatement.title}</div>
-                                            
-                                            
+
+
                                         </div>
-                                      
-                                        
+
+
 
                                     </div>
                                 </DialogTrigger>
 
-                                <DialogContent className='bg-white '>
-                                    <DialogHeader>
-                                        <DialogTitle>
-                                            <div className='flex flex-col gap-3 text-base'>
-                                                <div className='text-center text-2xl'>Problem Statement</div>
-                                                <div className='flex gap-3'>
-                                                    <div>PS: </div>
-                                                    <div className=''>{problemStatement.id}</div>
-                                                </div>
-                                                <div className='flex flex-col'>
-                                                    <div className='text-left'>Title:</div>
-                                                    <div className='text-sm text-left'>{problemStatement.title}</div>
-                                                </div>
-                                            </div>
-                                            
-                                        </DialogTitle>
-                                        <DialogDescription>
-                                                <div className='my-2'>
-                                                    <div className='font-semibold text-black text-left'>Description</div>
-                                                    <div 
-                                                    
-                                                    className='text-slate-800 max-h-[60vh] overflow-y-auto testimonials text-left'>{problemStatement.description}</div>
-                                                </div>
-                                                <div className='flex mt-4 gap-3'>
-                                                    <div className='font-semibold text-black'>Tags: </div>
-                                                    <div className='flex gap-2 flex-wrap text-slate-800'>
-                                                        <div>{problemStatement.tag}</div>
+                                <ContentDialog  {...problemStatement}/>
 
-                                                    </div>
-                                                </div>
-                                                
-
-                                            
-                                        </DialogDescription>
-                                    </DialogHeader>
-                                </DialogContent>
+                               
                             </Dialog>
 
 
+                        ))) : (
+                            ThemesData.map((Theme) => (
+                                <div key={Theme.id} className='flex flex-col shadow rounded bg-yellow-100/20 w-[20rem] ' data-aos='flip-right'>
+                                <div className="w-full h-[7px] bg-blue  rounded-t p-0"></div>
+                                <Player 
+                                    src='/event/comingSoon.json'
+                                    autoplay
+                                    loop
+                                    className='h-56'
+                                >
+                                </Player>
+                                </div>
+                            ))
 
-
-
-
-
-
-
-
-
-
-                        ))
+                        )
                     }
                 </div>
             </div>
