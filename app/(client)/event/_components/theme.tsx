@@ -67,7 +67,7 @@ const Themes = () => {
                                         >
                                         </Player> */}
 
-                                        <div className='h-56 flex gap-2 flex-col gap-1 p-3 overflow-y-auto testimonials'>
+                                        <div className='h-56 flex gap-2 flex-col p-3 overflow-y-auto testimonials'>
 
                                             <div className='text-xl font-bold '>Problem Statement</div>
                                             <div className=' flex gap-x-3 text-left '>
