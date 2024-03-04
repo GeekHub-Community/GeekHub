@@ -37,7 +37,11 @@ const ContentDialog = ({ id, description, tag, title }: problemStatementType) =>
                     <div className='flex mt-4 gap-3'>
                         <div className='font-semibold text-black'>Tags: </div>
                         <div className='flex gap-2 flex-wrap text-slate-800'>
-                            <div>{tag}</div>
+
+                            {tag &&
+                                tag?.map((tag, index)=>(<div key={index}>{tag}</div>))
+                            }
+                            
 
                         </div>
                     </div>
