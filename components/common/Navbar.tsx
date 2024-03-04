@@ -6,6 +6,7 @@ import Link from 'next/link'
 import { useState } from 'react'
 import {
     Sheet,
+    SheetClose,
     SheetContent,
     SheetDescription,
     SheetFooter,
@@ -42,7 +43,9 @@ export const Navbar = () => {
                             {
                                 Navlinks.map((link) => (
                                     <Link key={link.title} href={link.href}>
+                                        <SheetClose>
                                         <p className='text-base text-blue font-semibold hover:text-blue/80  p-1 transition-all duration-200 '>{link.title}</p>
+                                        </SheetClose>
                                     </Link>
                                 ))
                             }
