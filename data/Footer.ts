@@ -16,6 +16,10 @@ export const Links = [
 
 export const Help = [
     {
+        title: 'LinkedIn',
+        href:"https://www.linkedin.com/company/geekhub-uiet/"
+    },
+    {
         title:'Instagram',
         href:'https://www.instagram.com/geekhub_uiet/'
     },
