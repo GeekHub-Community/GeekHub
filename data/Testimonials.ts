@@ -18,7 +18,7 @@ export const TestimonialsData = [
     {
       id: 3,
       img: "/gaurav.jpeg",
-      name: "Gaurab Jha",
+      name: "Gaurav Jha",
       // currentCompany:'Codehelp',
       profession: "@GeeksforGeeks",
       thoughts:'At the beginning of my college journey I had some previous knowledge in coding but did not know my next step to proceed. Its when I discovered GeekHub, it not only helped me find my passion and choose the right domain, but also gave me unforgettable memories. Later when I became a mentor at Geekhub, I tried to helped my juniors find their passion because thats what a community does'
