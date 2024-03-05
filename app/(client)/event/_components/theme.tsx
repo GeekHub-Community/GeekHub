@@ -56,18 +56,17 @@ const Themes = () => {
 
                                 
 
-                                        <div className='h-56 flex gap-2 flex-col p-3 overflow-y-auto testimonials'>
-
+                                        <div className='h-56 flex gap-2 flex-col p-3 overflow-y-auto testimonials justify-between'>
                                             <div className='text-xl font-bold '>Problem Statement</div>
                                             <div className=' flex gap-x-3 text-left '>
                                                 <div className='font-semibold text-slate-900'>PS:</div>
                                                 <div className='font-medium'>{problemStatement.id}</div>
                                             </div>
-
-
-                                            <div className='font-medium text-left'>{problemStatement.title}</div>
-
-
+                                            <div className=' font-medium text-left'>{problemStatement.title}</div>
+                                            <div className='flex justify-between text-sm '>
+                                                <p>Tags: {problemStatement.tag}</p>
+                                                <p className='text-blue underline'>Read More</p>
+                                            </div>
                                         </div>
 
 
