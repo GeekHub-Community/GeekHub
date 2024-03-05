@@ -19,11 +19,11 @@ const Testimonials = () => {
                                         <p className='text-sm font-semibold'>{tes.name}</p>
                                         <div className='text-[10px] md:text-xs font-medium text-gray-500 flex gap-2 o'>
                                             <p >{tes.profession}</p>
-                                            <p className='font-semibold'>@{tes.currentCompany}</p>
+                                            {/* <p className='font-semibold'>@{tes.currentCompany}</p> */}
                                         </div>
                                     </div>
                                 </div>
-                                <p className='text-gray-500 text-sm leading-4 overflow-hidden'>{tes.thoughts}</p>
+                                <p className='text-gray-500 text-sm leading-4 overflow-hidden pt-3'>{tes.thoughts}</p>
                             </div>
                             // checking changes....
                         ))
