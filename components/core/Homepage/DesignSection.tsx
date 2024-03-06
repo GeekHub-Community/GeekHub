@@ -1,7 +1,7 @@
 'use client'
 
 
-import { lotties } from '@/data/Lotties'
+import { lotties } from '@/data/Cdn'
 import { Player } from '@lottiefiles/react-lottie-player'
 
 export const DesignSection = () => {

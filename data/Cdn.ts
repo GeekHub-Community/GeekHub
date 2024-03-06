@@ -15,3 +15,13 @@ export const images = {
     android: 'https://res.cloudinary.com/daepbmphe/image/upload/v1709745034/Images/android.png'
 }
 
+export const testimonials = {
+    rohanMishra: 'https://res.cloudinary.com/daepbmphe/image/upload/v1709746348/testimonials/rohanMishra.jpg',
+    Lakshya: 'https://res.cloudinary.com/daepbmphe/image/upload/v1709746346/testimonials/Lakshya.jpg',
+    mansi: "https://res.cloudinary.com/daepbmphe/image/upload/v1709746345/testimonials/mansi.jpg",
+    nehaGarg: 'https://res.cloudinary.com/daepbmphe/image/upload/v1709746345/testimonials/nehaGarg.jpg',
+    gaurav:"https://res.cloudinary.com/daepbmphe/image/upload/v1709746782/testimonials/gaurav.jpg",
+    manishanker: 'https://res.cloudinary.com/daepbmphe/image/upload/v1709746782/testimonials/manishanker.jpg',
+    sumanghosh: 'https://res.cloudinary.com/daepbmphe/image/upload/v1709746784/testimonials/sumanghosh.jpg'
+
+}

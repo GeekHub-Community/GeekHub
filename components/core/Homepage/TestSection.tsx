@@ -1,4 +1,4 @@
-import { images } from '@/data/Lotties'
+import { images } from '@/data/Cdn'
 import Image from 'next/image'
 import React from 'react'
 

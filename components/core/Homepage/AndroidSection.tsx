@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Image from 'next/image'
-import { images } from '@/data/Lotties'
+import { images } from '@/data/Cdn'
 
 export const AndroidSection = () => {
     return (

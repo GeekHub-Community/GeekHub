@@ -1,5 +1,5 @@
 "use client"
-import { lotties } from '@/data/Lotties';
+import { lotties } from '@/data/Cdn';
 import { Navlinks } from '@/data/Navbar';
 import { Player } from '@lottiefiles/react-lottie-player';
 import { motion } from 'framer-motion'
