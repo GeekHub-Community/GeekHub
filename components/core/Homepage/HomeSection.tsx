@@ -1,4 +1,5 @@
 "use client"
+import { lotties } from '@/data/Lotties';
 import { Navlinks } from '@/data/Navbar';
 import { Player } from '@lottiefiles/react-lottie-player';
 import { motion } from 'framer-motion'
@@ -45,7 +46,7 @@ export const HomeSection = () => {
 
                 <div className=' lg:w-3/5 flex justify-center items-center lg:justify-end'>
                     <motion.div
-                        animate={{ x: [200, 0] }}
+                        
                         transition={{ type: "spring", duration: 4 }}
                         drag={isDraggable}
                         dragTransition={{
@@ -57,7 +58,7 @@ export const HomeSection = () => {
                         <Player
                             autoplay
                             loop
-                            src="/home/world.json"
+                            src={lotties.world}
                             className='h-[400px] w-[400px] md:h-[450px] md:w-[450px] lg:h-[700px] lg:w-[700px]'
                         >
                         </Player>

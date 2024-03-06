@@ -1,12 +1,13 @@
 import React from 'react'
 
 import Image from 'next/image'
+import { images } from '@/data/Lotties'
 
 export const AndroidSection = () => {
     return (
         <div className='text-black bg-white flex  flex-col lg:flex-row p-5  justify-evenly'>
              <div className='flex justify-center items-center ' >
-                <Image alt='girlimage2' width={500} height={200} src='/home/android.png' className='h-[300px] w-[300px] md:h-[500px] md:w-[500px]'/>
+                <Image alt='android' width={500} height={200} src={images.android} className='h-[300px] w-[300px] md:h-[500px] md:w-[500px]'/>
             </div>
             <div className='lg:w-1/2  flex justify-center items-center'>
 

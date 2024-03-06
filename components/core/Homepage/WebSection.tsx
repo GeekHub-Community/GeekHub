@@ -1,4 +1,5 @@
 "use client"
+import { lotties } from '@/data/Lotties';
 import { Player} from '@lottiefiles/react-lottie-player';
 
 export const WebSection = () => {
@@ -35,7 +36,7 @@ export const WebSection = () => {
                 <Player
                     autoplay
                     loop
-                    src="/home/web.json"
+                    src={lotties.web}
                     className=' h-[300px] w-[300px] md:h-[500px] md:w-[500px]'
                 >
                 </Player>

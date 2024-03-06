@@ -1,5 +1,6 @@
 'use client'
 
+import { lotties } from '@/data/Lotties'
 import { Player } from '@lottiefiles/react-lottie-player'
 
 export const GameSection = () => {
@@ -7,7 +8,7 @@ export const GameSection = () => {
         <div className='text-black bg-white flex  flex-col lg:flex-row p-5  justify-evenly'>
              <div className='flex justify-center items-center ' >
                 <Player
-                 src = '/home/GameDevelopmentAnimated.json'
+                 src = {lotties.GameDevelopmentAnimated}
                  autoplay
                  loop
                  className=' md:h-[36rem] '

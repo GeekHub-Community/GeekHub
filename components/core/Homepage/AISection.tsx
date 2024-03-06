@@ -1,12 +1,14 @@
 "use client"
+import { lotties } from '@/data/Lotties'
 import { Player } from '@lottiefiles/react-lottie-player'
+
 
 export const AISection = () => {
     return (
         <div className='text-black bg-white flex flex-col lg:flex-row p-5  justify-evenly pt-[50px] pb-8'>
              <div className='flex justify-center items-center'>
                 <Player
-                src='/home/AiMlAnimated.json'
+                src={lotties.AiMlAnimated}
                 autoplay
                 loop
                 className='h-[20rem] md:h-[25rem]'

@@ -1,5 +1,6 @@
 "use client"
 
+import { lotties } from '@/data/Lotties'
 import { Player } from '@lottiefiles/react-lottie-player'
 
 export const CyberSecurity = () => {
@@ -7,7 +8,7 @@ export const CyberSecurity = () => {
         <div className='text-black bg-white flex  flex-col lg:flex-row p-5  justify-evenly'>
              <div className='flex justify-center items-center lg:py-14' >
                 <Player
-                    src='/home/CyberSecurityAnimated.json'
+                    src={lotties.CyberSecurityAnimated}
                     autoplay
                     loop
                     className='h-[22rem] '

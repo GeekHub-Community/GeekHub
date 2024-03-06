@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import { images } from '@/data/Lotties'
 
 export const DsaSection = () => {
     return (
@@ -14,7 +15,7 @@ export const DsaSection = () => {
                 
             </div>
             <div className='flex justify-center items-center'>
-                <Image alt='girlimage2' width={500} height={200} src='/home/dsa1.png' className='h-[300px] w-[300px] md:h-[500px] md:w-[500px]'/>
+                <Image alt='dsa' width={500} height={200} src={images.dsa1} className='h-[300px] w-[300px] md:h-[500px] md:w-[500px]'/>
             </div>
            
         </div>

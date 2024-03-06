@@ -1,5 +1,6 @@
 "use client"
 
+import { lotties } from '@/data/Lotties'
 import { Player } from '@lottiefiles/react-lottie-player'
 
 export const BlockChain = () => {
@@ -17,7 +18,7 @@ export const BlockChain = () => {
             <div className='flex justify-center items-center'>
                 
                 <Player 
-                src='/home/BlockChainAnimated.json'
+                src={lotties.BlockChainAnimated}
                 autoplay
                 loop
                 className='h-[22rem]'
