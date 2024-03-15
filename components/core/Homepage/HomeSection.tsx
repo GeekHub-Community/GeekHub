@@ -3,7 +3,7 @@ import { lotties } from '@/data/Cdn';
 import { Navlinks } from '@/data/Navbar';
 import { Player } from '@lottiefiles/react-lottie-player';
 import { motion } from 'framer-motion'
-import Link  from 'next/link';
+import Link from 'next/link';
 import { useEffect, useState } from 'react';
 
 export const HomeSection = () => {
@@ -24,6 +24,18 @@ export const HomeSection = () => {
         };
     }, []);
 
+
+    useEffect(() => {
+        const script = document.createElement('script');
+        script.src = 'https://apply.devfolio.co/v2/sdk.js';
+        script.async = true;
+        script.defer = true;
+        document.body.appendChild(script);
+        return () => {
+            document.body.removeChild(script);
+        }
+    }, []);
+
     return (
         <div className='min-h-screen w-full bg-white text-black'>
 
@@ -37,16 +49,22 @@ export const HomeSection = () => {
                         <div className='flex gap-5 font-semibold mt-2  justify-center lg:justify-end'>
                             <button className='p-2 bg-black px-7 text-white rounded'>Get Started</button>
                             <Link href='/members'>
-                            <button className='p-2 border border-black px-7  rounded'>Learn More</button>
+                                <button className='p-2 border border-black px-7  rounded'>Learn More</button>
                             </Link>
                         </div>
+                        <div
+                            className="apply-button"
+                            data-hackathon-slug="geekhub-hack"
+                            data-button-theme="light"
+                            style={{"height": "44px","width": "312px"}}
+                        ></div>
                     </div>
 
                 </div>
 
                 <div className=' lg:w-3/5 flex justify-center items-center lg:justify-end'>
                     <motion.div
-                        
+
                         transition={{ type: "spring", duration: 4 }}
                         drag={isDraggable}
                         dragTransition={{

@@ -27,7 +27,7 @@ const ShowCase = () => {
                
                 <div
                     className="apply-button"
-                    data-hackathon-slug="geekhub-hackathon"
+                    data-hackathon-slug="geekhub-hack"
                     data-button-theme="light"
 
                 ></div>

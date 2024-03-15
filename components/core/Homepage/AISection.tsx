@@ -11,9 +11,7 @@ export const AISection = () => {
                 src={lotties.AiMlAnimated}
                 autoplay
                 loop
-                className='h-[20rem] md:h-[25rem]'
-
-                >
+                className='h-[20rem] md:h-[25rem]'>
 
                 </Player>
             </div>
