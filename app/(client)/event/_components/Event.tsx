@@ -48,13 +48,16 @@ const Event = () => {
 
       <Dialog >
         <DialogTrigger>
-          <RecentButton text='View Participants' />
+          
+            <RecentButton text='View Participants' />
+          
+          
         </DialogTrigger>
         <DialogContent className='bg-white '>
           <DialogHeader>
             <DialogTitle>
               <div className='my-2 text-center text-2xl'>
-                Hackthon Team Members
+                Hackathon Teams 
               </div>
 
 

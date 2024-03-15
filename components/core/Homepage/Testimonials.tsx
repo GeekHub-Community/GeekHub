@@ -27,7 +27,7 @@ const Testimonials = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <p className='text-gray-500 text-sm leading-4 overflow-hidden pt-3'>{tes.thoughts}</p>
+                                    <p className='text-gray-500 text-sm leading-4 overflow-y-auto testimonials pt-3'>{tes.thoughts}</p>
                                 </div>
                             </Cardtilt>
                            

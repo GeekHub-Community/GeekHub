@@ -15,6 +15,7 @@ WebSection
 } from '@/components/core/Homepage'
 
 import Testimonials from '@/components/core/Homepage/Testimonials';
+import Sponsor from '@/components/core/sponsor/Sponsor';
 
 
 export default function Home() {
@@ -40,6 +41,7 @@ export default function Home() {
         <BlockChain/>
         <GameSection/>
         <Testimonials/>
+        <Sponsor/>
         <TestSection/>
       </div>
     </main>
