@@ -1,9 +1,14 @@
 "use client"
 import RecentButton from '@/components/common/RecentButton';
 import { Player } from '@lottiefiles/react-lottie-player';
+import { X } from 'lucide-react';
+import { useState } from 'react';
+
 import TypewriterComponent from 'typewriter-effect'
 
 const ShowCase = () => {
+    const [show, setShow] = useState<boolean>(true);
+
     return (
         <div className="HeroBack h-[55vw] md:h-[45vw] relative" >
             <div className="h-full w-full bg-black/40 flex flex-col justify-end  items-center border md:justify-center pb-14 md:pb-0">
@@ -28,7 +33,21 @@ const ShowCase = () => {
                 </div>
 
                 <div className=' absolute top-[120%] md:top-full '>
-                <RecentButton showit={true} style='absolute  bottom-full' text='Register for Hackathon' link='/event'/>
+                    <div className={`${show ? 'fixed bottom-10 z-[3] left-[50%] -translate-x-[50%] ' : 'flex'}  justify-between gap-4`}>
+
+
+                        <RecentButton text='View Problem Statements' link='/event' />
+                        <div className={`${show ? '' : 'hidden'} absolute left-[101%] bottom-[101%] bg-sky-700 rounded-full text-white p-1 `}
+                            onClick={(show) => setShow(!show)}
+                        >
+                            <X size={12} />
+
+
+                        </div>
+
+
+
+                    </div>
                     <Player
                         autoplay
                         loop
@@ -37,6 +56,9 @@ const ShowCase = () => {
                     >
                     </Player>
                 </div>
+
+
+
             </div>
         </div>
 

@@ -8,13 +8,13 @@ const page = () => {
     return (
         <div className='min-h-screen  w-full pt-[80px] text-black bg-white'>
             <div className='flex justify-center'>
-                <Timeline />
-            </div>
-            <div>
-                <Event/>
+               <Event/>
             </div>
             <div>
                 <Themes />
+            </div>
+            <div className='flex justify-center'>
+                 <Timeline />
             </div>
         </div>
     )
